@@ -1,4 +1,9 @@
 body{
 
 }
-p
+p{
+  font:verdana;
+  color:blue;
+  background:green;
+  text-aling:centre;
+}
