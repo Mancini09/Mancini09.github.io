@@ -1,0 +1,111 @@
+html{background:black;}
+a:link{color:white; text-decoration:none;}
+a:visited{color:white; text-decoration:none;}
+#box{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	background:#27514F;
+	background-size:100%;
+}
+#top{
+	width:100%;
+	height:300px;
+	background-image:url(img/sfondotop.jpg);
+	background-size:100% auto;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#696969;
+}
+
+#menu{
+	width:100%;
+	height:30px;
+	background:grey;
+	background-size:auto 30px;
+}
+
+#menu ul {
+	padding: 0;
+	margin: 0;}
+
+#menu li {
+	position: relative;
+	float: left;
+	text-align: center;
+	list-style: none;}
+
+#menu li a {
+	line-height:30px;
+	width:auto;
+	height:28px;
+	float:left;
+	background:#C61D26;
+	text-align:center;
+	border-radius:10px;
+	border:1px solid black;
+	padding:0 75px;
+	text-decoration: none;
+	display: block;
+}
+
+#menu li a:hover {
+	background-color: #91B3B4;
+	text-shadow: 0px 0px 1px #FFF;
+}
+
+#menu ul ul {
+	position: absolute;
+	top: 30px;
+	visibility: hidden;
+}
+
+#menu ul li:hover ul {
+	visibility: visible;
+}
+
+#menu ul ul li a {
+	background-color:#C61D26;
+	width:240px;
+}
+
+#menu ul ul li a:hover {
+	background-color:#91B3B4;
+}
+
+#corpo{
+	width:100%;
+	height:auto;
+	background:transparent;
+}
+
+#immagine{
+	width:700px;
+	height:auto;
+	padding:10px;
+	margin:auto;
+	margin-top:30px;
+	background:black;
+	clear:both;
+}
+#immagine img{width:100%;}
+/*#dna1{
+	width:auto;
+	height:auto;
+	float:left;
+}*/
+#testo{
+	width:800px;
+	height:auto;
+	padding:30px;
+	margin:auto;
+	margin-top:30px;
+	clear:both;
+	background:#91B3B4;
+}
+
+#footer{
+	width:100%;
+	height:100px;
+	background:transparent;
+}
