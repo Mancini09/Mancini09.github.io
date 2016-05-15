@@ -1,9 +1,10 @@
 body{
 
 }
-p{
+p.def{
   font:verdana;
   color:blue;
   background:green;
-  text-aling:centre;
+  position:centre;
+  
 }
