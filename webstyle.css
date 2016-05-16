@@ -8,3 +8,8 @@ body{
   position:centre;
   
 }
+#box{
+  background:#387371;
+  width:1000px;
+	height:auto;
+}
