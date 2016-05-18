@@ -3,17 +3,9 @@ body{
 }
 #testo{
   font:verdana;
-  padding:5pt;
   color:blue;
-  background:green;
-  position:centre;
+  background:0F57F3;
+  <--position:centre--!>;
   
 }
-#box{
-  background:#387371;
-  width:1000px;
-  height:auto;
-  margin:0 auto;
-  background-size:100%;
-  
-}
+
