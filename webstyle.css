@@ -3,6 +3,7 @@ body{
 }
 #testo{
   font:verdana;
+  padding:5pt;
   color:blue;
   background:green;
   position:centre;
