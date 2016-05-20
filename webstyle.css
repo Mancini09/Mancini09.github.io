@@ -9,7 +9,8 @@ body{
   
 }
 #box{
-	width:1000px;
+	width:auto;
+	border-style:inset;
 	height:auto;
 	margin:0 auto;
 	background:#27514F;
