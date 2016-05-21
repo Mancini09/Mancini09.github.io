@@ -25,16 +25,19 @@ body{
 	background:#E8E2F3;
 	color:black;
 }
-#fr{ 
-	display: inline-block; vertical-align: middle;
-            font-size: 90%; text-align: center;
+.fr{ 
+	display: inline-block;
+	vertical-align: middle;
+        font-size: 90%;
+        text-align: center;
 	
 }
-#fr span { 
+.fr span { 
 	display: block; 
 	
 }
-#fd { 
-	padding-top: .05em; border-top: .125em black solid; 
+.fd { 
+	padding-top: .05em;
+	border-top: .125em black solid; 
 	
 }
