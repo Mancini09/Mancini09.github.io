@@ -4,7 +4,7 @@ body{
 #testo{
   font:verdana;
   color:blue;
-  background:"0F57F3";
+  background:#0F57F3;
   <--position:centre--!>;
   
 }
@@ -17,8 +17,8 @@ body{
 	background-size:100%;
 }
 #thead{
-	background:2E14F0;
-	color:6F6D7D;
+	background:#2E14F0;
+	color:#6F6D7D;
 	
 }
 #tbody{	
