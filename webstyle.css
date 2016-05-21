@@ -16,12 +16,12 @@ body{
 	background:#27514F;
 	background-size:100%;
 }
-#thead{
+.thead{
 	background:#2E14F0;
 	color:#6F6D7D;
 	
 }
-#tbody{	
+.tbody{	
 	background:#E8E2F3;
 	color:black;
 }
