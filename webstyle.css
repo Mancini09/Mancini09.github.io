@@ -43,3 +43,7 @@ body{
 	border-top: .125em black solid; 
 	
 }
+#container ul li{
+	float:left;
+	
+}
