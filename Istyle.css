@@ -99,8 +99,8 @@ header{
 	background-color: #0FC52A;
 	color: #0A07FC;
 }
-#contenuto img{
-	margin-top: 11pt;
+.corpo contenuto img{
+	margin-top: 38pt;
 	padding-left: 10%;
 	padding-right: 10%;
 	width: 80%;
