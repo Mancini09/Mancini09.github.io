@@ -5,11 +5,12 @@
 
 body{
 	font-family: 'Francois One', Arial, Helvetica, sans-serif;
-	background: #2C3E50;
+	background: white;
 	color: white;
 }
 
 .corpo {
+	background-color: #2C3E50;
 	width: 60%;
 	margin-top: 50px;
 	margin-right: auto;
@@ -23,14 +24,14 @@ body{
 	width: 96%;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #1B33C0;
+	background-color: #FFFFFF;
 }
 
 .corpo nav {
 	width: 96%;
 	padding-right: 2%;
 	padding-left: 2%;
-	background-color: #FFFFFF;
+	background-color: White;
 }
 
 header{
