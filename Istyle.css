@@ -100,9 +100,11 @@ header{
 	color: #0A07FC;
 }
 #contenuto img{
-	padding-left: 5%;
+	margin-top: 11pt;
+	padding-left: 10%;
 	padding-right: 10%;
-	width: 85%;
+	width: 80%;
 	height: auto;
+	border: 2px solid #2C3E50;
 	
 }
