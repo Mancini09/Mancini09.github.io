@@ -21,7 +21,7 @@ body{
 
 .corpo header {
 	width: 96%;
-	paddingleft: 2%;
+	padding-left: 2%;
 	padding-right: 2%;
 	background-color: #1B33C0;
 }
@@ -98,4 +98,11 @@ header{
 .pagina_selezionata{
 	background-color: #0FC52A;
 	color: #0A07FC;
+}
+#contenuto img{
+	padding-left: 5%;
+	padding-right: 10%;
+	width: 85%;
+	height: auto;
+	
 }
