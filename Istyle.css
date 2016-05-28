@@ -25,77 +25,95 @@ body {
 	background-color: #FFFFFF;
 }
 
-#contenitore nav ul {
-	list-style-type: none;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-nav ul li {
-	position: relative;
-	float: left;
-	text-decoration: none;
-	text-align: center;
+body{
+	font-family: 'Francois One', Arial, Helvetica, sans-serif;
+	background: #2C3E50;
+	color: white;
 }
 
-ul li a {
+.corpo {
+	width: 60%;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	line-height: 150%;
+	border-color: #000000;
+}
+
+#contenitore header {
+	width: 96%;
+	paddingleft: 2%;
+	padding-right: 2%;
+	background-color: #1B33C0;
+}
+
+header{
+	margin: 40px 0;
+	background: #2C3E50;
+}
+.menu li{
 	display: block;
-	height: 28px;
 	float: left;
-	text-transform: uppercase;
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
-	background-color: #1200FF;
-	border-radius: 5px;
-	color: #02FF00;
-	border-style: solid;
-	border-color: black;
-	text-decoration: none;
-	line-height: 30px
+	color: #2C3E50;
+	border-right: 1px solid #2C3E50;
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -moz-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 }
-
-ul li a:hover {
-	background-color: #1F1D98;
-	color: #00FF15;
+.menu li:hover{
+	cursor: pointer;
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
+	color: slateGrey;
 }
-
-ul li a:active {
-	background-color: #010053;
-	color: #00FF15;
+.primo{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
-
-nav ul ul {
-	width: auto;
-	position: absolute;
+.ultimo{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.sub-menu{
 	visibility: hidden;
 }
-
-#contenitore nav ul li:hover ul {
+.menu li:hover .sub-menu{
 	visibility: visible;
-
+}
+.sub-menu li{
+	border-top: 1px dotted #2C3E50;
+}
+.sub-menu li:hover{
+	width: 145px;
+	background: -webkit-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
+	background: -o-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
+	transition: all 0.1s ease 0s;
+	-webkit-transition: all 0.1s ease 0s;
+	-moz-transition: all 0.1s ease 0s;
+	-o-transition: all 0.1s ease 0s;
+	-ms-transition: all 0.1s ease 0s;
+}
+.ultimo-sub{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
-#contenitore nav ul ul li a {
-	float: none;
-	border-radius: 5px;
-	background-color: #1200FF;
-}
-
-#contenitore nav ul ul li a:hover {
-	float: none;
-	border-radius: 5px;
-	background-color: #1F1D98;
-	color: #00FF15;
-}
-
-#contenitore nav ul ul li a:active {
-	background-color: #010053;
-	color: #00FF15;
-}
-
-#contenitore #contenuto {
-	width: 96%;
-	padding-right: 2%;
-	padding-left: 2%;
-	background-color: #636363;
-}
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
 
 .pagina_selezionata{
 	background-color: #0FC52A;
