@@ -75,7 +75,7 @@ header{
 .sub-menu{
 	visibility: hidden;
 }
-.menu li:hover .sub-menu{
+#menu li:hover .sub-menu{
 	visibility: visible;
 }
 .sub-menu li{
