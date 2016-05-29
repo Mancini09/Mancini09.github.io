@@ -30,7 +30,7 @@ body{
 	padding-right: 2%;
 	padding-left: 2%;-->
 
-.corpo nav {
+#corpo nav {
 	
 	background-color: White;
 }
@@ -39,7 +39,7 @@ header{
 	margin: 40px 0;
 	background: #2C3E50;
 }
-#nav menu li{
+#menu li{
 	display: block;
 	float: left;
 	width: 150px;
