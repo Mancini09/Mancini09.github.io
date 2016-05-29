@@ -9,7 +9,7 @@ body{
 	color: white;
 }
 
-.corpo {
+#corpo {
 	background-color: #2C3E50;
 	width: 1000px;
 	margin-top: 50px;
@@ -20,7 +20,7 @@ body{
 	border-color: #000000;
 }
 
-.corpo header {
+#corpo header {
 	width: 96%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -39,7 +39,7 @@ header{
 	margin: 40px 0;
 	background: #2C3E50;
 }
-.menu li{
+#nav menu li{
 	display: block;
 	float: left;
 	width: 150px;
@@ -54,7 +54,7 @@ header{
 	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 }
-.menu li:hover{
+#menu li:hover{
 	cursor: pointer;
 	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
 	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%);
@@ -99,7 +99,7 @@ header{
 }
 
 }
-#contenuto.img{
+#contenuto img{
 	margin-top: 38pt;
 	padding-left: 10%;
 	padding-right: 10%;
