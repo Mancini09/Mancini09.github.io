@@ -82,7 +82,7 @@ header{
 	border-top: 1px dotted #2C3E50;
 }
 .sub-menu li:hover{
-	width: 145px;
+	width: 250px;
 	background: -webkit-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
 	background: -moz-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
 	background: -o-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
@@ -98,11 +98,6 @@ header{
 	border-bottom-right-radius: 10px;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Francois+One);
-
-.pagina_selezionata{
-	background-color: #0FC52A;
-	color: #0A07FC;
 }
 #contenuto img{
 	margin-top: 38pt;
