@@ -22,9 +22,11 @@ body{
 
 #corpo header {
 	width: 96%;
+	margin-left: 10px;
+	margin-right: 10px;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #FFFFFF;
+	background: #2C3E50;
 }
 <!--width: 96%;
 	padding-right: 2%;
@@ -37,7 +39,7 @@ body{
 
 header{
 	margin: 40px 0;
-	background: #2C3E50;
+	
 }
 #menu li{
 	display: block;
