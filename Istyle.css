@@ -101,9 +101,9 @@ header{
 }
 #img img{
 	margin-top: 38pt;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 80;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 96%;
 	height: auto;
 	border
 	
