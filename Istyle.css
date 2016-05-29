@@ -6,7 +6,7 @@
 body{
 	font-family: 'Francois One', Arial, Helvetica, sans-serif;
 	background: white;
-	color: white;
+	color:#2C3E50;
 }
 
 #corpo {
@@ -99,7 +99,7 @@ header{
 }
 
 }
-#header img {
+#corpo header img {
 	margin-top: 38pt;
 	margin-left: 10px;
 	margin-right: 10px;
