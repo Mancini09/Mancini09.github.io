@@ -21,10 +21,13 @@ body{
 }
 
 #corpo header {
-	width: 80%;
+	width: 50%;
+	height: 300px;
+	background: white;
+	border:2px solid black;
+	margin-top: 20px;
 	margin-left: 10%;
 	margin-right: 10%;
-	background: #2C3E50;
 }
 <!--width: 96%;
 	padding-right: 2%;
@@ -34,9 +37,6 @@ body{
 	
 	background-color: White;
 }
-
-header{
-	margin: 40px 0;
 	
 }
 #menu li{
@@ -99,13 +99,4 @@ header{
 }
 
 }
-#header img {
-	margin-top: 38pt;
-	margin-left: 20%;
-	margin-right: auto;
-	width: 50%;
-	height: auto;
-	background: white;
-	border
-	
-}
+
