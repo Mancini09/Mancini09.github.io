@@ -14,8 +14,9 @@ body{
 	width:auto;
 	border-style:inset;
 	height:auto;
-	margin:0 auto;
-	background:#27514F;
+	margin:2px;
+	padding:2px;
+	background:#2C3E50;
 	background-size:100%;
 }
 .thead{
@@ -41,9 +42,5 @@ body{
 .fd { 
 	padding-top: .05em;
 	border-top: .125em black solid; 
-	
-}
-#container ul li{
-	float:left;
 	
 }
