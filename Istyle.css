@@ -22,7 +22,7 @@ body{
 
 #corpo header {
 	width: 80%;
-	padding-top: 20px;
+	margin-top: 20px;
 	margin-left: 10%;
 	margin-right: 10%;
 	background: #2C3E50;
@@ -101,10 +101,10 @@ header{
 
 }
 #header img {
-	padding-top: 38pt;
-	margin-left: auto;
+	margin-top: 38pt;
+	margin-left: 20%;
 	margin-right: auto;
-	width: 90%;
+	width: 50%;
 	height: auto;
 	background-color: white;
 	border
