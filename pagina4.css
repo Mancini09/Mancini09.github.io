@@ -110,13 +110,15 @@ menu ul li a:hover ul {
 
 #box #corpo{
 	margin-top:5%;
+	margin-bottom:5%;
 	margin-left:5%;
 	margin-right: 5%;
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #FFFFFF;
 	
 }
 
 #box #corpo #testo{
 	text-align: center;
+	padding:2%;
 	
 }
