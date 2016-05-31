@@ -39,7 +39,7 @@ body{
 }
 	
 }
-#menu li{
+#menu li a{
 	display: block;
 	float: left;
 	width: 150px;
