@@ -52,8 +52,7 @@
 	float: left;
 	background-color: #0AFF00;
 	text-align: center;
-	border-radius: 10px;
-	border: 1px solid #000000;
+	border-right: 1px solid #2C3E50;
 	text-decoration: none;
 	display: block;
 }
@@ -62,6 +61,18 @@
 	cursor: pointer;
 	background-color: #FF0004;
 	color: #000000;
+}
+
+.primo{
+	margin-left: 35px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.ultimo{
+	margin-left: 35px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 #menu ul ul {
