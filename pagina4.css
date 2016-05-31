@@ -107,7 +107,16 @@ menu ul li a:hover ul {
 #menu ul ul li a:hover {
 	background-color: #FF0004;
 }
-#box #corpo #testo{
+
+#box #corpo{
 	margin-top:5%;
+	margin-left:5%;
+	margin-right: 5%;
+	box-shadow: 0px 0px 10px #000000;
+	
+}
+
+#box #corpo #testo{
 	text-align: center;
+	
 }
