@@ -44,15 +44,27 @@
 	position: relative;
 	text-align: center;
 	list-style-type: none;
+	display: block;
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-right: 1px solid #000000;
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -moz-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 }
 
 #menu li a {
+	text-align: center;
+	text-transform: uppercase;
+	color: #2C3E50;
 	width: 100px;
 	height: 30px;
 	float: left;
 	background-color: #0AFF00;
 	text-align: center;
-	border-right: 1px solid #2C3E50;
 	text-decoration: none;
 	display: block;
 }
