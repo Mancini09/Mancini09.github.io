@@ -46,7 +46,7 @@
 	list-style-type: none;
 	display: block;
 	float: left;
-	width: 100px;
+	width: 16%;
 	height: 40px;
 	line-height: 50px;
 	border-right: 1px solid #000000;
@@ -60,7 +60,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #2C3E50;
-	width: 100px;
+	width: 16%;
 	height: 30px;
 	float: left;
 	text-align: center;
