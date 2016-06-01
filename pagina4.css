@@ -93,7 +93,7 @@
 	visibility: hidden;
 }
 
-#menu ul li a:hover ul {
+#menu ul li :hover ul ul {
 	visibility: visible;	
 }
 
