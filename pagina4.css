@@ -47,7 +47,7 @@
 	display: block;
 	float: left;
 	width: 120px;
-	height: 30px;
+	height: 40px;
 	line-height: 50px;
 	border-right: 1px solid #000000;
 	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
@@ -93,7 +93,7 @@
 	visibility: hidden;
 }
 
-#menu ul li :hover ul ul {
+#menu ul li :hover ul {
 	visibility: visible;	
 }
 
